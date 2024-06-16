@@ -1,0 +1,23 @@
+.recommended-movies {
+  margin-top: 20px;
+}
+
+.recommended-movies h2 {
+    
+  margin-bottom: 10px;
+  margin-left: 75px;
+}
+
+.movies-list {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.movies-list::-webkit-scrollbar {
+  display: none;
+}
+
+.movies-list {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

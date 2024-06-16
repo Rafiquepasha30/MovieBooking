@@ -1,0 +1,55 @@
+.seat-selection {
+  padding: 20px;
+}
+
+.seats {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: #ff6347;
+}
+
+.showtimes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.showtime {
+  background-color: #ccc;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.showtime.selected {
+  background-color: #ff6347;
+  color: white;
+}
+
+.proceed-to-book-button {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.proceed-to-book-button:hover {
+  background-color: #ff4500;
+}
